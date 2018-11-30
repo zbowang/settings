@@ -1,0 +1,13 @@
+<!-- simplest template -->
+<snippet>
+	<content><![CDATA[
+\documentclass[12pt]{article}
+\begin{document}
+
+$1
+
+\end{document}
+]]></content>
+	<tabTrigger>base</tabTrigger>
+	<scope>text.tex</scope>
+</snippet>

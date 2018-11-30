@@ -1,0 +1,37 @@
+<!-- beamer template -->
+<snippet>
+	<content><![CDATA[
+\documentclass{beamer}
+\input{template_short.tex}
+%\documentclass[aspectratio=169]{beamer}
+%\input{template_long.tex}
+
+
+%% use one of the two below
+% \colorlet{main}{red!50!black}
+% \colorlet{main}{purple}
+
+%-------------------main body-------------------------%
+
+\author{Your Name}
+\title{Presentation Title}
+\date{January 1, 2018}
+
+\begin{document}
+
+\frame[plain]{\titlepage}
+
+\begin{frame}
+\frametitle{Outline}
+\tableofcontents
+\end{frame}
+
+\section{Page Title}
+\subsection{second subsection}
+
+\end{document} 
+
+]]></content>
+	<tabTrigger>beamer</tabTrigger>
+	<scope>text.tex</scope>
+</snippet>

@@ -1,0 +1,33 @@
+{
+   "folders": [],
+
+   "settings": {
+        "workbench.colorCustomizations": {
+            "editorIndentGuide.background": "#656464",
+            "editorIndentGuide.activeBackground": "#656464"
+            },
+
+        "latex-workshop.view.pdf.viewer": "external",
+   
+        "latex-workshop.view.pdf.external.command": {
+            "command": "C:/Program Files/SumatraPDF/SumatraPDF.exe",
+            "args": [
+                "%PDF%"
+            ]
+        },
+
+        "latex-workshop.latex.recipes": [
+            {
+
+            }
+        ],
+
+        "latex-workshop.latex.tools": [
+            {
+                
+            }
+        ]
+
+      
+   }
+}

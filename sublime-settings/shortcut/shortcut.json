@@ -1,0 +1,15 @@
+[
+{ "keys": ["alt+l"], "command": "move", "args": {"by": "characters", "forward": true} },
+{ "keys": ["alt+j"], "command": "move", "args": {"by": "characters", "forward": false} },
+{ "keys": ["alt+k"], "command": "move", "args": {"by": "lines", "forward": true} },
+{ "keys": ["alt+i"], "command": "move", "args": {"by": "lines", "forward": false}},
+{ "keys": ["alt+h"], "command": "move", "args": {"by": "characters", "forward": false, "extend": true} },
+{ "keys": ["alt+;"], "command": "move", "args": {"by": "characters", "forward": true, "extend": true} },
+{ "keys": ["alt+o"], "command":"move_to", "args":{"to":"eol"}} ,
+{ "keys": ["alt+u"], "command":"move_to", "args":{"to":"bol"}} ,
+{ "keys": ["alt+y"], "command": "move", "args": {"by": "words", "forward": false, "extend": true} },
+{ "keys": ["alt+["], "command": "move", "args": {"by": "word_ends", "forward": true, "extend": true} },
+{ "keys": ["alt+up"], "command": "swap_line_up" },  
+{ "keys": ["alt+down"], "command": "swap_line_down" },
+{ "keys": ["shift+alt+down"], "command": "duplicate_line" },
+]

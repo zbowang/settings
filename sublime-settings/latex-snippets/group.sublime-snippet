@@ -1,0 +1,15 @@
+<!-- equation set -->
+<snippet>
+	<content><![CDATA[
+\begin{equation}
+\left\\\{
+\begin{array}{rl}
+$1&=$2\\\\
+$3&=$4
+\end{array}
+\right.
+\end{equation}
+]]></content>
+	<tabTrigger>group</tabTrigger>
+	<scope>text.tex</scope>
+</snippet>

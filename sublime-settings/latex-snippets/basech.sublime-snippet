@@ -1,0 +1,14 @@
+<!-- simplest chinese template -->
+<snippet>
+	<content><![CDATA[
+\documentclass[UTF8,12pt]{article}
+\usepackage{ctex}
+\begin{document}
+
+$1
+
+\end{document}
+]]></content>
+	<tabTrigger>basech</tabTrigger>
+	<scope>text.tex</scope>
+</snippet>

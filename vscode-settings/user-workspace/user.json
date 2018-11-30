@@ -1,0 +1,19 @@
+{
+    "window.zoomLevel": -1,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.minimap.renderCharacters": false,
+    "workbench.colorTheme": "Monokai",
+    "editor.minimap.showSlider": "always",
+
+    "workbench.colorCustomizations": {
+        "scrollbarSlider.background":"#656667",
+        "scrollbarSlider.hoverBackground":"#a5a6a8",
+        "editorIndentGuide.background": "#363535",
+		"editorIndentGuide.activeBackground": "#444343"
+    },
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "files.autoGuessEncoding": true,
+    
+}

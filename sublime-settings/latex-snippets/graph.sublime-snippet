@@ -1,0 +1,13 @@
+<!-- graph -->
+<snippet>
+	<content><![CDATA[
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{${1: filename.png}}
+\end{figure}
+
+
+]]></content>
+	<tabTrigger>graph</tabTrigger>
+	<scope>text.tex</scope>
+</snippet>

@@ -1,0 +1,12 @@
+<!-- code -->
+<snippet>
+	<content><![CDATA[
+\begin{lstlisting}[language=${1: R}]
+$2
+\end{lstlisting}
+
+
+]]></content>
+	<tabTrigger>code</tabTrigger>
+	<scope>text.tex</scope>
+</snippet>
