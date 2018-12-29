@@ -1,0 +1,13 @@
+{
+		"insert a figure": {
+		"prefix": "figure",
+		"body": [
+			"\\begin{figure}[h]",
+			"    \\centering",
+			"    \\includegraphics[width=0.8\\textwidth]{$1}",
+			"\\end{figure}",
+			"$0"
+		],
+		"description": "insert a figure"
+	}, 
+}

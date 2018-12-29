@@ -15,5 +15,7 @@
         "suppressShowKeyBindingsNotice": true
     },
     "files.autoGuessEncoding": true,
+    "explorer.confirmDelete": false,
+    "editor.wordWrap": "on",
     
 }
