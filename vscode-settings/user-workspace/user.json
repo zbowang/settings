@@ -9,8 +9,22 @@
         "scrollbarSlider.background":"#656667",
         "scrollbarSlider.hoverBackground":"#a5a6a8",
         "editorIndentGuide.background": "#363535",
-		"editorIndentGuide.activeBackground": "#444343"
+        "editorIndentGuide.activeBackground": "#444343",
+        "editor.lineHighlightBackground": "#000000",
+        "editor.background": "#000000",
+        "editor.foreground": "#FFFFFF",
+        "sideBar.background": "#000000",
+        "editor.findMatchBackground": "#baab01",
+        "editor.findMatchHighlightBorder": "#baab01",
+        "editor.findMatchHighlightBackground": "#FFFFFF00",
+        "editor.selectionHighlightBorder": "#e0dfd7",
+
     },
+
+    "editor.tokenColorCustomizations": {
+        "comments": "#a39f8a",
+    },
+    
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
     },
