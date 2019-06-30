@@ -1,0 +1,138 @@
+{
+    "snippets" : [
+        {
+            "name" : "Base Import",
+            "code" : [
+                "import numpy as np",
+                "import pandas as pd",
+                "import matplotlib.pyplot as plt",
+                "%matplotlib inline"
+            ]
+        },
+        {
+            "name": "load_ext",
+            "code": [
+                "%load_ext autoreload",
+                "%autoreload 2"
+            ]
+        },
+        {
+            "name" : "Figure Size",
+            "code" : [
+                "plt.rcParams['figure.figsize'] = (10.0, 8.0)"
+            ]
+        },
+
+        {
+            "name": "Sklearn Base",
+            "code": [
+                "# from sklearn.datasets import load_iris",
+                "from sklearn.linear_model import LogisticRegression",
+                "from sklearn.metrics import confusion_matrix, auc, classification_report",
+                "from sklearn.model_selection import train_test_split",
+                "",
+                "y = data.y",
+                "X = data.drop(['y'], axis=1).values",
+                "X_train, X_valid, y_train, y_valid = train_test_split(X, y, test_size=0.3)",
+                "",
+                "model = LogisticRegression()",
+                "model.fit(X_train,y_train)",
+                "",
+                "pred = model.predict(X_valid)",
+                "confusion_matrix(y_valid, pred)"
+            ]
+        },
+
+        {
+            "name": "Sklearn Models",
+            "code": [
+                "# API https://scikit-learn.org/stable/modules/classes.html",
+                "from sklearn.linear_model import LinearRegression, Lasso, Ridge",
+                "from sklearn.linear_model import LogisticRegression",
+                "from sklearn.svm import SVC, LinearSVC",
+                "from sklearn.tree import DecisionTreeClassifier",
+                "from sklearn.naive_bayes import GaussianNB, BernoulliNB, MultinomialNB",
+                "from sklearn.neighbors import KNeighborsClassifier",
+                "from sklearn.neural_network import MLPClassifier",
+                "from sklearn.ensemble import AdaBoostClassifier, BaggingClassifier",
+                "from sklearn.ensemble import RandomForestClassifier, ExtraTreesClassifier",
+                "from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer"
+            ]
+        },
+
+        {
+            "name": "Sklearn Others",
+            "code": [
+                "from sklearn.metrics import accuracy_score, auc, classification_report",
+                "from sklearn.metrics import mean_squared_error",
+                "from sklearn.model_selection import train_test_split, GridSearchCV, LeaveOneOut",
+                "from sklearn.pipeline import Pipeline",
+                "from sklearn.preprocessing import StandardScaler",
+                "from sklearn.datasets import load_iris"
+            ]
+        },
+
+        {
+            "name": "Json Write",
+            "code": [
+                "import json",
+                "s = json.dumps(result_list, indent = 4, ensure_ascii=False)",
+                "with open('movies.json', 'w', encoding = 'utf-8') as f:",
+                "    f.write(s)"
+            ]
+        },
+
+        {
+            "name": "Json Load",
+            "code": [
+                "import json",
+                "with open('movies.json', encoding = 'utf-8') as f:",
+                "    s = f.read()",
+                "data = json.loads(s)",
+                "print(data)"
+            ]
+        },
+
+        {
+            "name" : "save pdf",
+            "code" : [
+                "plt.savefig('tmp.pdf', bbox_inches='tight')" 
+            ]
+        },
+
+        {
+            "name" : "mpl Chinese",
+            "code" : [
+                "from pylab import mpl",
+                "mpl.rcParams['font.sans-serif'] = ['FangSong']",
+                "mpl.rcParams['axes.unicode_minus'] = False" 
+            ]
+        },
+        {
+            "name": "New Snippet",
+            "code": [
+                "# Roaming/jupyter/nbextensions/snippets/snippets.json",
+                "",
+                "import json",
+                "def Code2Snippet(name, code):",
+                "    d = {",
+                "        'name': name,",
+                "        'code': code.strip().split('\\n')",
+                "    }",
+                "    s = json.dumps(d, indent=4)",
+                "    print('\\n'.join([' '*8 + line for line in s.split('\\n')])+',')",
+                "",
+                "",
+                "name = 'Sklearn Others'",
+                "code = r'''",
+                "from sklearn.metrics import accuracy_score, auc, classification_report",
+                "from sklearn.metrics import mean_squared_error",
+                "'''",
+                "",
+                "Code2Snippet(name, code)"
+            ]
+        }
+        
+    ]
+
+}

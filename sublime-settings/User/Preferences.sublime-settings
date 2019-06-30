@@ -1,0 +1,12 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+	"font_face": "YaHei Consolas hybrid",
+	"font_size": 9,
+	"ignored_packages":
+	[
+		"Anaconda",
+		"Vintage"
+	],
+	"theme": "Adaptive.sublime-theme",
+	"auto_complete_commit_on_tab": true
+}
