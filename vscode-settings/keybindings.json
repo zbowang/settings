@@ -23,12 +23,20 @@
     {
         "key": "ctrl+shift+x",
         "command": "revealFileInOS",
-        "when": "!editorFocus"
+        "when": "editorTextFocus"
     },
     {
         "key": "shift+alt+r",
         "command": "-revealFileInOS",
         "when": "!editorFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+x",
+        "command": "workbench.view.extensions"
+    },
+    {
+        "key": "ctrl+shift+x",
+        "command": "-workbench.view.extensions"
     },
 
 ]

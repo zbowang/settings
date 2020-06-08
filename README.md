@@ -6,7 +6,7 @@ Shortcuts and latex snippets.
 
 ## vscode
 
-Settings for user, python, latex, R.
+Settings for user, python, latex, R. Snippets and shortcuts.
 
 ## jupyter-snippets
 
