@@ -1,0 +1,34 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    { "key": "alt+left","command": "cursorHome", "when": "editorTextFocus" },
+    { "key": "alt+right","command": "cursorEnd", "when": "editorTextFocus" },
+    { "key": "ctrl+-", "command": "workbench.action.navigateBack" },
+    {
+        "key": "cmd+alt+shift+i",
+        "command": "editor.action.inspectTMScopes"
+    },
+    {
+        "key": "ctrl+shift+u",
+        "command": "editor.action.transformToUppercase",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "editor.action.transformToLowercase",
+        "when": "editorTextFocus"
+    },
+    { "key": "shift+enter", "command": "-markdown.extension.onShiftEnterKey",
+        "when": "editorTextFocus && !editorReadonly && !suggestWidgetVisible && editorLangId == 'markdown'"
+    },
+    {
+        "key": "ctrl+shift+x",
+        "command": "revealFileInOS",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "shift+alt+r",
+        "command": "-revealFileInOS",
+        "when": "!editorFocus"
+    },
+
+]
