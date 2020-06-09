@@ -31,5 +31,23 @@
     "files.autoGuessEncoding": true,
     "explorer.confirmDelete": false,
     "editor.wordWrap": "on",
+    "explorer.confirmDragAndDrop": false,
+    // "markdown.extension.showExplorer": true,
+    // "pasteImage.showFilePathConfirmInputBox": true,
+    // "pasteImage.path": "${currentFileDir}/images",
     
+    // "openInExternalApp.openMapper": [
+    //     {
+    //         "extensionName": "md",
+    //         "apps": [{
+    //             "title": "typora",
+    //             "isElectronApp": true,
+    //         }]
+    //     }
+    // ]
+
+    "pasteImage.path": "${currentFileDir}/images",
+    "pasteImage.showFilePathConfirmInputBox": true,
+    "pasteImage.filePathConfirmInputBoxMode": "onlyName",
+
 }
