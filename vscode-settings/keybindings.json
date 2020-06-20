@@ -38,5 +38,10 @@
         "key": "ctrl+shift+x",
         "command": "-workbench.view.extensions"
     },
+    {
+        "key": "shift+enter",
+        "command": "-markdown-preview-enhanced.runCodeChunk",
+        "when": "editorLangId == 'markdown'"
+    },
 
 ]
